@@ -24,9 +24,8 @@ basic.forever(function () {
     }
     if (rouge >= 1023) {
         vert += 250
-    } else if (vert >= 1023) {
+    }
+    if (vert >= 1023) {
         bleu += 250
-    } else {
-    	
     }
 })
